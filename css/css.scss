@@ -1,6 +1,7 @@
 $textc: #ff9900;
 $font: 'Courier New', monospace;
 $backgroundc: #343233;
+$buttonbc: #ffffff;
 
 head {
     color: $textc;
@@ -15,5 +16,10 @@ body {
 footer {
     color: $textc;
     background-color: $backgroundc;
+    font: 100% $font;
+}
+button {
+    color: $textc;
+    background-color: $buttonbc;
     font: 100% $font;
 }

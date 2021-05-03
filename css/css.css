@@ -15,4 +15,10 @@ footer {
   background-color: #343233;
   font: 100% "Courier New", monospace;
 }
+
+button {
+  color: #ff9900;
+  background-color: #ffffff;
+  font: 100% "Courier New", monospace;
+}
 /*# sourceMappingURL=css.css.map */
