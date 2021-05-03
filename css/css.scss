@@ -2,6 +2,7 @@ $textc: #ff9900;
 $font: 'Courier New', monospace;
 $backgroundc: #343233;
 $buttonbc: #ffffff;
+$boxc: #000000;
 
 head {
     color: $textc;
@@ -15,6 +16,12 @@ body {
     .responsive {
         width: 50%;
         height: 750;
+      }
+    div {
+        width: 300px;
+        border: 15px solid $boxc;
+        padding: 50px;
+        margin: 20px;
       }
 }
 footer {
