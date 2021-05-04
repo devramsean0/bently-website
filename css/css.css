@@ -1,0 +1,36 @@
+head {
+  color: #ff9900;
+  background-color: #343233;
+  font: 100% "Courier New", monospace;
+}
+
+body {
+  color: #ff9900;
+  background-color: #343233;
+  font: 100% "Courier New", monospace;
+}
+
+body .responsive {
+  width: 50%;
+  height: 750;
+}
+
+body section {
+  width: 1000px;
+  border: 10px solid #000000;
+  padding: 0.5px;
+  margin: 5px;
+}
+
+footer {
+  color: #ff9900;
+  background-color: #343233;
+  font: 100% "Courier New", monospace;
+}
+
+button {
+  color: #ff9900;
+  background-color: #ffffff;
+  font: 100% "Courier New", monospace;
+}
+/*# sourceMappingURL=css.css.map */

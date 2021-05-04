@@ -1,0 +1,36 @@
+$textc: #ff9900;
+$font: 'Courier New', monospace;
+$backgroundc: #343233;
+$buttonbc: #ffffff;
+$boxc: #000000;
+
+head {
+    color: $textc;
+    background-color: $backgroundc;
+    font: 100% $font;
+}
+body {
+    color: $textc;
+    background-color: $backgroundc;
+    font: 100% $font;
+    .responsive {
+        width: 50%;
+        height: 750;
+      }
+    section {
+        width: 1000px;
+        border: 10px solid $boxc;
+        padding: 0.5px;
+        margin: 5px;
+      }
+}
+footer {
+    color: $textc;
+    background-color: $backgroundc;
+    font: 100% $font;
+}
+button {
+    color: $textc;
+    background-color: $buttonbc;
+    font: 100% $font;
+}
