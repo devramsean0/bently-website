@@ -1,8 +1,0 @@
-# bently-website
-a memorial for bently found at bently.sean-outram.xyz
-
-
-
-
-#to do
-more pics
