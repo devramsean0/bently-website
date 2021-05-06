@@ -1,8 +1,9 @@
 $textc: #ff9900;
 $font: 'Courier New', monospace;
 $backgroundc: #343233;
-$buttonbc: #ffffff;
+$buttonbc: #3e3f40;
 $boxc: #000000;
+$buttonborder: #ffffff;
 
 head {
     color: $textc;
@@ -33,4 +34,5 @@ button {
     color: $textc;
     background-color: $buttonbc;
     font: 100% $font;
+    border: 4px dashed $buttonborder;
 }

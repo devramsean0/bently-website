@@ -30,7 +30,8 @@ footer {
 
 button {
   color: #ff9900;
-  background-color: #ffffff;
+  background-color: #3e3f40;
   font: 100% "Courier New", monospace;
+  border: 4px dashed #ffffff;
 }
 /*# sourceMappingURL=css.css.map */
