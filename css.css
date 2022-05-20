@@ -1,0 +1,33 @@
+/* Grid */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 0.25fr);
+    grid-template-rows: repeat(2, 0.25fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 1 / 4 / 2 / 5; }
+    .div5 { grid-area: 2 / 1 / 3 / 2; }
+    .div6 { grid-area: 2 / 2 / 3 / 3; }
+    .div7 { grid-area: 2 / 3 / 3 / 4; }
+    .div8 { grid-area: 2 / 4 / 3 / 5; }
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Design */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+.grid-entries {
+    background-color: darkgreen;
+}
+body {
+    background-color: red;
+    color: green;
+    font-family: 'Koulen', cursive;
+}
