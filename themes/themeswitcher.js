@@ -37,7 +37,6 @@ function initialSetTheme() {
     } else {
         const theme = getCookie("theme");
         addStylesheet(`themes/${theme}`)
-        setButton(theme)
     }
 }
 
@@ -45,9 +44,4 @@ function setTheme(theme) {
     document.cookie = `theme=${theme}`
     removeStylesheet()
     addStylesheet(`themes/${theme}`)
-    setButton(theme)
-}
-
-function setButton(button) {
-  document.getElementById(button).style.backgroundColor = "white";
 }
