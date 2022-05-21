@@ -60,6 +60,6 @@ body {
 }
 button {
     background-color: var(--secondary);
-    color: black;
+    color: var(--primary);
     font-family: 'Roboto Mono', monospace;
 }
