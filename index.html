@@ -5,8 +5,23 @@
         <link rel="stylesheet" href="./css.css" />
         <link rel="icon" href="https://sean.cyou/Bently-1.jpg" />
     </head>
-    <body>
-        <h1>Bently photos</h1>
+    <body onload="initialSetTheme()">
+        <header>
+            <div class="headParent">
+                <div class="headDiv1">
+                    <h1>Bently Photos</h1>
+                </div>
+                <div class="headDiv2">
+                    <button id="darkbutton" onclick="setTheme('dark')">Dark button</button>
+                </div>
+                <div class="headDiv3">
+                    <button id="whitebutton" onclick="setTheme('white')">White button</button>
+                </div>
+                <div class="headDiv4">
+                    <button id="high-contrastbutton" onclick="setTheme('high-contrast')">High Contrast</button>
+                </div>
+            </div>
+        </header>
         <div class="parent">
             <div class="div1 grid-entries">
                 <img src="https://sean.cyou/Bently-1.jpg" alt="Photo 1" />
@@ -31,5 +46,6 @@
             </div>
             <div class="div8 grid-entries"></div>
         </div>
+        <script src="./themes/themeswitcher.js"></script>
     </body>
 </html>
